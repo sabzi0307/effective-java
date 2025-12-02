@@ -6,4 +6,9 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - effective-java-item-code-sample</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <maven.compiler.source>22</maven.compiler.source>
+    <maven.compiler.target>22</maven.compiler.target>
+  </properties>
 </project>
