@@ -25,3 +25,17 @@ Should only be used as a safety net, not main resource management
 
 Use try-with-resources and AutoCloseable for deterministic cleanup.
 
+## 🧠 Key Takeaways for README.md
+
+Never use finalize() — unpredictable & harmful
+
+Avoid Cleaner except as a backup
+
+Always use try-with-resources and AutoCloseable for:
+
+    Files
+    Sockets
+    Database connections
+    Streams
+
+Deterministic cleanup is essential for safe and correct resource handling
